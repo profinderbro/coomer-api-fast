@@ -1,4 +1,4 @@
-# Paste in Console 
+# #1 Paste in Console 
 _open the coomer profile to scrap and paste this to console (inspect)_
 
 ```
@@ -66,7 +66,7 @@ function saveTxt() {
 fetchAll();
 ```
 
-# Coomer API Fast ([Try Now](https://colab.research.google.com/github/profinderbro/coomer-api-fast/blob/main/coomer-api-fast.ipynb))
+# #2 Coomer API Fast ([Try Now](https://colab.research.google.com/github/profinderbro/coomer-api-fast/blob/main/coomer-api-fast.ipynb))
 
 A fast async media scraper for OnlyFans content from coomer.su with Jupyter notebook interface.
 
