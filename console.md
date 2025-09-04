@@ -1,3 +1,4 @@
+```
 const username = "urbabydollxo";
 const service = "onlyfans";
 const apiBase = `https://coomer.st/api/v1/${service}/user/${username}/posts?o=`;
@@ -58,3 +59,4 @@ function saveTxt() {
 }
 
 fetchAll();
+```
