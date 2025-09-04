@@ -1,7 +1,9 @@
 # Paste in Console 
 
 ```
-const username = "urbabydollxo";
+const urlParts = location.href.split('/');
+const username = urlParts[urlParts.length - 1] || urlParts[urlParts.length - 2];
+
 const service = "onlyfans";
 const apiBase = `https://coomer.st/api/v1/${service}/user/${username}/posts?o=`;
 let allUrls = [];
