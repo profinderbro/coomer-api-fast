@@ -1,5 +1,5 @@
 # Paste in Console 
-_open the coomer profile to scraper and paste this to console (inspect)_
+_open the coomer profile to scrap and paste this to console (inspect)_
 
 ```
 const urlParts = location.href.split('/');
