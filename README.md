@@ -65,6 +65,31 @@ function saveTxt() {
 
 fetchAll();
 ```
+###Video Only
+```
+# Path to your files
+input_file = "/content/urls.txt"
+output_file = "/content/urls_filtered.txt"
+
+# Image extensions to remove
+image_exts = ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp', '.tiff')
+
+with open(input_file, 'r') as f:
+    lines = f.readlines()
+
+# Remove image links
+filtered_lines = [line for line in lines if not line.strip().lower().endswith(image_exts)]
+
+# Replace domain substring
+processed_lines = [line.replace("img.coomer.st/thumbnail", "n3.coomer.st") for line in filtered_lines]
+
+# Save result
+with open(output_file, 'w') as f:
+    f.writelines(processed_lines)
+
+print(f"Processed file saved as: {output_file}")
+
+```
 
 # #2 Coomer API Fast ([Try Now](https://colab.research.google.com/github/profinderbro/coomer-api-fast/blob/main/coomer-api-fast.ipynb))
 
